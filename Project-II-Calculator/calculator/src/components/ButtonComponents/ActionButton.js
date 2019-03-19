@@ -1,34 +1,6 @@
 import React from 'react';
 import './Button.css';
-import ButtonsAction from './ButtonsAction'
 
-
-const actionButtons = [
-    {
-        text: '/'
-    },
-    {
-        text: '*'
-    },
-    {
-        text: '-'
-    },
-    {
-        text: '+'
-    },
-    {
-        text: '='
-    }
-]
-
-function ActionButton() {
-    return(
-        <div>
-            {actionButtons.map(textFromMap =>(
-                <ButtonsAction actionProp={textFromMap} />
-            ))}
-        </div>
-    )
-}
+const ActionButton = props => <button className={props.ActionButtonStyle}>{props.text}</button>;
 
 export default ActionButton;
