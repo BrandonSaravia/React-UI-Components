@@ -1,46 +1,34 @@
 import React from 'react';
 import './Button.css';
-import  from ''
+import ButtonsAction from './ButtonsAction'
 
 
 const actionButtons = [
     {
-        text: '1'
+        text: '/'
     },
     {
-        text: '2'
+        text: '*'
     },
     {
-        text: '3'
+        text: '-'
     },
     {
-        text: '4'
+        text: '+'
     },
     {
-        text: '5'
-    },
-    {
-        text: '6'
-    },
-    {
-        text: '7'
-    },
-    {
-        text: '8'
-    },
-    {
-        text: '9'
+        text: '='
     }
 ]
 
-function NumberedButtons() {
+function ActionButton() {
     return(
         <div>
-            {numberedButton.map(textFromMap =>(
-                <NumberButton numberProp={textFromMap} />
+            {actionButtons.map(textFromMap =>(
+                <ButtonsAction actionProp={textFromMap} />
             ))}
         </div>
     )
 }
 
-export default NumberedButtons;
+export default ActionButton;
