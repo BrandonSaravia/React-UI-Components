@@ -5,7 +5,7 @@ import HeaderTitle from './HeaderTitle'
 
 const MainHeaderText = () => {
     return (
-    <div>
+    <div className='mainHeaderText'>
         <HeaderContent /> 
         <HeaderTitle />
     </div>

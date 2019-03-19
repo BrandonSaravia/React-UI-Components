@@ -5,7 +5,7 @@ import MainHeaderText from './MainHeaderText'
 
 const HeaderContainer = () => {
     return (
-    <div>
+    <div className='innerHeader'>
         <ImageThumbnail /> 
         <MainHeaderText />
     </div>
