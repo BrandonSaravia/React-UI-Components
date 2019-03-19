@@ -1,9 +1,9 @@
 import React from 'react';
 import './Button.css';
-import  from ''
+import NumberButton from './NumberButton'
 
 
-const actionButtons = [
+const numberedButton = [
     {
         text: '1'
     },
