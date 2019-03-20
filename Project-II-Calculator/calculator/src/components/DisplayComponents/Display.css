@@ -1,0 +1,13 @@
+.p{
+    box-sizing: border-box;
+    width: 100%;
+    background: #25272C;
+    color: white;
+    margin-top: 0;
+    height: 125px;
+    text-align: right;
+    font-size: 77px;
+    padding-top: 23px;
+    padding-right: 13px;
+    margin-bottom: 0;
+}

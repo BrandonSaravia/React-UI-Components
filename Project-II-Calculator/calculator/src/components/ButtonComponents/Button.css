@@ -1,0 +1,19 @@
+.buttonStyle{
+    width: 100%;
+    padding: 23px 0;
+    font-size: 40px;
+    background: white;
+}
+.numberStyle{
+    width: 33.3%;
+    height: 94px;
+    font-size: 43px;
+    background: white;
+}
+.symbolStyle{
+    height: 19.99%;
+    width: 100%;
+    background: rgb(155, 11, 11);
+    color: white;
+    font-size: 46px;
+}

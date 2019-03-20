@@ -1,0 +1,28 @@
+html{
+    background: black;
+}
+.container {
+    max-width: 455px;
+    margin: 0 auto;
+    border: 1px solid white;
+    margin-top: 175px;
+    background: white;
+}
+.inputPad{
+    display: flex;
+}
+.leftPad{
+    width: 74%;
+}
+.symbols{
+    display: flex;
+    flex-flow: column;
+    width: 26%;
+    margin: 0;
+}
+.numbers{
+    display: flex;
+    flex-flow: row wrap;
+    width: 100%;
+
+}
