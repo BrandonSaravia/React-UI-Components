@@ -10,30 +10,30 @@ const App = () => {
       <Display />
       <div className='inputPad'>
         <div className='leftPad'>
-
-          <ActionButton text='Clear' />
+        
+          <ActionButton ActionButtonStyle="buttonStyle" text='Clear' />
 
           <div className='numbers'>
-            <NumberButton text='1' />
-            <NumberButton text='2' />
-            <NumberButton text='3' />
-            <NumberButton text='4' />
-            <NumberButton text='5' />
-            <NumberButton text='6' />
-            <NumberButton text='7' />
-            <NumberButton text='8' />
-            <NumberButton text='9' />
+            <NumberButton buttonStyle='numberStyle' text='7' />
+            <NumberButton buttonStyle='numberStyle' text='8' />
+            <NumberButton buttonStyle='numberStyle' text='9' />
+            <NumberButton buttonStyle='numberStyle' text='4' />
+            <NumberButton buttonStyle='numberStyle' text='5' />
+            <NumberButton buttonStyle='numberStyle' text='6' />
+            <NumberButton buttonStyle='numberStyle' text='1' />
+            <NumberButton buttonStyle='numberStyle' text='2' />
+            <NumberButton buttonStyle='numberStyle' text='3' />
           </div>
 
-          <ActionButton text='0' />
-
+          <ActionButton ActionButtonStyle="buttonStyle" text='0' />
         </div>
+
         <div className='symbols'>
-          <NumberButton text='/' />
-          <NumberButton text='*' />
-          <NumberButton text='-' />
-          <NumberButton text='+' />
-          <NumberButton text='=' />
+          <NumberButton buttonStyle='symbolStyle' text='/' />
+          <NumberButton buttonStyle='symbolStyle' text='*' />
+          <NumberButton buttonStyle='symbolStyle' text='-' />
+          <NumberButton buttonStyle='symbolStyle' text='+' />
+          <NumberButton buttonStyle='symbolStyle' text='=' />
         </div>
       </div>
     </div>
